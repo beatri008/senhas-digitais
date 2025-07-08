@@ -8,19 +8,22 @@
 --roboto: 'Roboto', sans-serif;
 --roboto-mono: 'Roboto Mono', monospace;
 }
+/**/
 * {
-font-weight: 400;
+font-weight: 400; /*expessura da fonte*/
 }
+
 body {
-color: var(--branco);
+color: var(--branco); /* cor do body*/
 background-color: var(--cor-de-fundo);
 font-family: var(--roboto);
 }
 .titulo-principal {
 font-family: var(--roboto-mono);
-font-size: 32px;
+font-size: 32px;/**/
 }
-.titulo-secundario {
+.titulo-secundario { /*class*/
+    
 font-size: 24px;
 }
 .conteudo-titulo {
